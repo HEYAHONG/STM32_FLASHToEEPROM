@@ -12,8 +12,8 @@
 
 1. 将src文件夹添加至STM32工程中
 2. 根据当前单片机的数据手册修改flash2eeprom.h文件夹。
-    - PAGE_SIZE 修改为当前单片机的flash大小
-    - PAGE_COUNT 根据需要修改要用做EEPROM的页数 
+    - PAGE_SIZE 修改为当前单片机的flash页大小
+    - PAGE_COUNT 根据需要修改要用做EEPROM的页数
 
 
 # 当前状态
