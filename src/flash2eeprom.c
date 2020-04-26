@@ -36,6 +36,10 @@ FLASH_WaitForLastOperation(1000);
 
 void    Flash_EEPROM_Erase_One_PAGE(uint32_t page_offset)//擦除一页,page_offset为页编号
 {
+
+if(page_offset >= PAGE_COUNT)
+	return;
+
 FLASH_EraseInitTypeDef Flash_ROM;  //声明 FLASH_EraseInitTypeDef 结构体为 Flash_ROM
 HAL_FLASH_Unlock();               //解锁Flash
 Flash_ROM.TypeErase=FLASH_TYPEERASE_PAGES;//标明Flash执行页面只做擦除操作

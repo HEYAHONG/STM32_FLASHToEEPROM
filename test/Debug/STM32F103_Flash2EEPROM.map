@@ -1910,7 +1910,7 @@ LOAD c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
                 0x0000000008000000                g_pfnVectors
                 0x000000000800010c                . = ALIGN (0x4)
 
-.text           0x000000000800010c     0x1234
+.text           0x000000000800010c     0x123c
                 0x000000000800010c                . = ALIGN (0x4)
  *(.text)
  .text          0x000000000800010c       0x40 c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.0.0.201904181610/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o
@@ -2077,44 +2077,44 @@ LOAD c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
  .text.RCC_Delay
                 0x00000000080011c0       0x3c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
  .text.Flash_EEPROM_Erase_One_PAGE
-                0x00000000080011fc       0x4c src/flash2eeprom.o
+                0x00000000080011fc       0x54 src/flash2eeprom.o
                 0x00000000080011fc                Flash_EEPROM_Erase_One_PAGE
  .text.Flash_EEPROM_Program_Word
-                0x0000000008001248       0x58 src/flash2eeprom.o
-                0x0000000008001248                Flash_EEPROM_Program_Word
+                0x0000000008001250       0x58 src/flash2eeprom.o
+                0x0000000008001250                Flash_EEPROM_Program_Word
  .text.Flash_EEPROM_Read_Word
-                0x00000000080012a0       0x30 src/flash2eeprom.o
-                0x00000000080012a0                Flash_EEPROM_Read_Word
+                0x00000000080012a8       0x30 src/flash2eeprom.o
+                0x00000000080012a8                Flash_EEPROM_Read_Word
  .text.__libc_init_array
-                0x00000000080012d0       0x48 c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.0.0.201904181610/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
-                0x00000000080012d0                __libc_init_array
- .text.memset   0x0000000008001318       0x10 c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.0.0.201904181610/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memset.o)
-                0x0000000008001318                memset
+                0x00000000080012d8       0x48 c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.0.0.201904181610/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
+                0x00000000080012d8                __libc_init_array
+ .text.memset   0x0000000008001320       0x10 c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.0.0.201904181610/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memset.o)
+                0x0000000008001320                memset
  *(.glue_7)
- .glue_7        0x0000000008001328        0x0 linker stubs
+ .glue_7        0x0000000008001330        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008001328        0x0 linker stubs
+ .glue_7t       0x0000000008001330        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0000000008001328        0x0 c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.0.0.201904181610/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o
+ .eh_frame      0x0000000008001330        0x0 c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.0.0.201904181610/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o
  *(.init)
- .init          0x0000000008001328        0x4 c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.0.0.201904181610/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crti.o
-                0x0000000008001328                _init
- .init          0x000000000800132c        0x8 c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.0.0.201904181610/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtn.o
+ .init          0x0000000008001330        0x4 c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.0.0.201904181610/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crti.o
+                0x0000000008001330                _init
+ .init          0x0000000008001334        0x8 c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.0.0.201904181610/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtn.o
  *(.fini)
- .fini          0x0000000008001334        0x4 c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.0.0.201904181610/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crti.o
-                0x0000000008001334                _fini
- .fini          0x0000000008001338        0x8 c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.0.0.201904181610/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtn.o
-                0x0000000008001340                . = ALIGN (0x4)
-                0x0000000008001340                _etext = .
+ .fini          0x000000000800133c        0x4 c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.0.0.201904181610/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crti.o
+                0x000000000800133c                _fini
+ .fini          0x0000000008001340        0x8 c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.0.0.201904181610/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtn.o
+                0x0000000008001348                . = ALIGN (0x4)
+                0x0000000008001348                _etext = .
 
-.vfp11_veneer   0x0000000008001340        0x0
- .vfp11_veneer  0x0000000008001340        0x0 linker stubs
+.vfp11_veneer   0x0000000008001348        0x0
+ .vfp11_veneer  0x0000000008001348        0x0 linker stubs
 
-.v4_bx          0x0000000008001340        0x0
- .v4_bx         0x0000000008001340        0x0 linker stubs
+.v4_bx          0x0000000008001348        0x0
+ .v4_bx         0x0000000008001348        0x0 linker stubs
 
-.iplt           0x0000000008001340        0x0
- .iplt          0x0000000008001340        0x0 c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.0.0.201904181610/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o
+.iplt           0x0000000008001348        0x0
+ .iplt          0x0000000008001348        0x0 c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.0.0.201904181610/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o
 
 .rodata         0x0000000008001400      0x800
                 0x0000000008001400                . = ALIGN (0x4)
@@ -2371,7 +2371,7 @@ OUTPUT(STM32F103_Flash2EEPROM.elf elf32-littlearm)
  .debug_macro   0x00000000000124f2      0x19a src/flash2eeprom.o
  .debug_macro   0x000000000001268c       0x10 src/flash2eeprom.o
 
-.debug_line     0x0000000000000000     0x48dc
+.debug_line     0x0000000000000000     0x48e2
  .debug_line    0x0000000000000000      0x65f Core/Src/main.o
  .debug_line    0x000000000000065f      0x5ee Core/Src/stm32f1xx_hal_msp.o
  .debug_line    0x0000000000000c4d      0x691 Core/Src/stm32f1xx_it.o
@@ -2382,7 +2382,7 @@ OUTPUT(STM32F103_Flash2EEPROM.elf elf32-littlearm)
  .debug_line    0x00000000000029e5      0x7e3 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o
  .debug_line    0x00000000000031c8      0x832 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o
  .debug_line    0x00000000000039fa      0x888 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .debug_line    0x0000000000004282      0x65a src/flash2eeprom.o
+ .debug_line    0x0000000000004282      0x660 src/flash2eeprom.o
 
 .debug_str      0x0000000000000000    0x64012
  .debug_str     0x0000000000000000    0x62b67 Core/Src/main.o

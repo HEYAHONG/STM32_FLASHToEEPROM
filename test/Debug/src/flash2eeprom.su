@@ -1,4 +1,4 @@
 flash2eeprom.c:24:9:Flash_EEPROM_Erase_ALL_PAGE	32	static
 flash2eeprom.c:37:9:Flash_EEPROM_Erase_One_PAGE	40	static
-flash2eeprom.c:50:9:Flash_EEPROM_Program_Word	24	static
-flash2eeprom.c:67:10:Flash_EEPROM_Read_Word	16	static
+flash2eeprom.c:54:9:Flash_EEPROM_Program_Word	24	static
+flash2eeprom.c:71:10:Flash_EEPROM_Read_Word	16	static
