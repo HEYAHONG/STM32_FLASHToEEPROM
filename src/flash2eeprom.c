@@ -19,7 +19,7 @@
 
 #endif
 
-static  uint8_t ALIGN(1024) const eeprom[PAGE_SIZE*PAGE_COUNT]={} ;
+static  uint8_t ALIGN(PAGE_SIZE) const eeprom[PAGE_SIZE*PAGE_COUNT]={} ;
 
 void    Flash_EEPROM_Erase_ALL_PAGE()
 {
